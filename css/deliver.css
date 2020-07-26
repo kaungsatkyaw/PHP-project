@@ -1,0 +1,13 @@
+.deli_frame_outer{
+	margin-top: 10px;
+}
+.deli_infor_header{
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	background-color: black; 
+}
+.place_order_btn:hover{
+	background-color: orange;
+	color: white;
+}

@@ -1,0 +1,173 @@
+section{
+	height: 150px !important;
+	margin:0px !important;
+	background: url("../img/phone/k20.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.title {
+	margin-top: 120px;
+	position: absolute;
+}
+.title li{
+	list-style: none;
+	padding: 0px 10px;
+	color: white;
+	float: left;
+	font-family: Montserrat,sans-serif;
+	font-weight: 700;
+}
+.title li:hover{
+	color: #fb383b;
+}
+#active{
+	border-right: 2px solid white;
+}
+.active1{
+	color: #fb383b !important;
+}
+
+/*.card-body{
+	background: lightblue;
+	background:radial-gradient(white 30%,lightblue 70%);
+}*/
+.fa-star,.fa-star-half{
+	color:gold !important;
+	padding:3% 0;
+}
+#icon{
+	border-radius: 50%;
+	color:#fff;
+	background-color: #17a2b8;
+	padding:4% 4%;
+	cursor: pointer;
+}
+.detail-btn{
+	width:75px;
+	height: 35px;
+	cursor: pointer;
+	border:1px solid rgba(220,53,96,0.58);
+	border-radius:1px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75rem;
+	float: right;
+	margin:0px 5px; 
+	font-weight: bold;
+}
+.detail-btn:hover{
+	background: #fb383b;
+	color: #fff;
+	transition:0.75s;
+}
+.cart-btn{
+	height: 35px;
+	cursor: pointer;
+	border:1px solid transparent;
+	float: right;
+	padding:0 10px;
+	background-color:#fb383b;
+	color:#fff;
+
+}
+.cart-btn:hover,.v-btn:hover{
+	background: #757575;
+	color: #fff;
+	transition:0.5s;
+}
+.card-body{
+	background: #8484841f;
+}
+.price{
+	float: left;
+	font-weight: bold;
+	font-size: 1rem;
+}
+#search-one{
+	padding: 10px;
+}
+#search-one input{
+	width: 80%;
+	border:none;
+	background: #8484841f;
+	padding: 10px;
+	font-size: 1rem;
+	box-shadow:0 0.05rem 0.75rem rgba(0, 0, 0, .35);
+}
+#search-one button{
+	width: 15%;
+	padding: 10px 0;
+	background:#000;
+	border:none;
+	color:#fff;
+	box-shadow:0 0.05rem 0.75rem rgba(0, 0, 0, .35);
+}
+#search-one button:hover{
+	background:  #fb383b;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+/*view*/
+.view{
+	margin:0px;
+	padding: 0px;
+}
+
+.view li{
+	list-style: none;
+	float: left;
+	width: 33%;
+	padding: 2px;
+}
+.view li img{ 
+	border:1px solid rgba(0,0,0,0.25);
+}
+.view-txt-heading{
+	text-transform: capitalize;
+    font-size: 23px;
+    color: #fb383b;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+.view-txt{
+	letter-spacing: 1px;
+    font-family: inherit, sans-serif;
+}
+.v-detail li{
+	line-height: 35px;
+}
+.v-btn{
+	height: 40px;
+	cursor: pointer;
+	border:1px solid transparent;
+	padding:0 10px;
+	background-color:#fb383b;
+	color:#fff;
+
+}
+.v-color  li{
+	float: left;
+	list-style: none;
+	width: 20px;
+	height: 20px;
+	margin:0 5px;
+}
+.v-color .color1{
+	background:rgba(0,0,0,1);
+}.v-color .color2{
+	background:pink;
+}.v-color .color3{
+	background:#d39e00;
+}.v-color .color4{
+	background:silver;
+}
+.img-icon{
+	color:#0062cc;
+	font-size: 2rem;
+	padding:0 10px;
+}
+#txt{
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	padding:30px 0px;
+}

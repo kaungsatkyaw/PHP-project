@@ -1,0 +1,67 @@
+body{
+	background-color: #3b8fc5;
+}
+.login{
+	margin-left:250px;
+	width: 600px;
+}
+.login h3{
+	font-size: 40px;
+    color: #FFF;
+    margin-bottom: 1.5em;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.container input{
+	border:none;
+	border-radius: none !important;
+}
+.container span{
+	width: 150px;
+	background-color: #e74c3c;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin:20px 0px;
+	letter-spacing: 1px;
+}
+.container input{
+	width: 450px;
+	padding: 10px;
+	margin:20px 0px;
+}
+.container .btn1{
+	float: right;
+	width: 150px;
+	background-color: #005377;
+	border:none;
+	cursor: pointer;
+	border-radius: 0 !important;
+	font-size: 1.1rem;
+}
+.container .btn:hover{
+	background-color:  #e74c3c;
+}
+.login p a{
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+	padding:10px 100px;
+	letter-spacing: 2px;
+	border:1px solid  #fff;
+}
+.login p a:hover{
+	border:1px solid  #e74c3c;
+}
+.alert-txt{
+	color:#fff;
+	padding:10px;
+	background-color:#444;
+}
+
+/*For login*/
+#l-main{
+	
+}

@@ -1,0 +1,101 @@
+
+.s_box_2{
+	float: left;
+	width: 100%;
+	padding: 40px;
+	height: 569px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.login_text,.s_box_2 .login_text{
+	margin: 0 0 10px;
+	color: black;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: center;
+}
+.input_box,.s_box_2 .input_box{
+	position: relative;
+}
+.input_box input,.s_box_2 .input_box input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 20px;
+	border:none;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #03a9f4;
+	outline: none;
+	background: transparent;
+}
+.input_box label,.s_box_2 .input_box label{
+	position: absolute;
+	top:0;
+	left: 0;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+	pointer-events: none;	
+	transition: .5s;
+}
+.input_box input:focus ~ label,
+.input_box input:valid ~ label,
+.s_box_2 .input_box input:focus ~ label,
+.s_box_2 .input_box input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.ok
+,.s_box_2 .ok
+
+{
+	border:none;
+	outline: none;
+	color: #fff;
+	background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+	width: 100%;
+	font-family: Arial;
+	margin-top: 20px;
+	height: 45px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.or{
+	text-align: center;
+	color: #afafaf;
+	margin-top: 35px;
+	font-family: Arial;
+	font-size: 18px;
+
+}
+.or_login{
+	border: none;
+	outline: none;
+	text-align: center;
+	border:1px solid #afafaf;
+	background:#fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 10%;
+}
+.or_login i{
+	margin-right: 10px;
+	color:#0000ff96;
+}
+.or_login b text{
+	color:#0000ff96;
+}
+.sign_up_text{
+	color: #afafaf;
+	font-size: 15px;
+	text-align: center;
+}
+

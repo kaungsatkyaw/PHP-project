@@ -1,0 +1,16 @@
+.cart-area-1{
+    padding-bottom: 100px;
+}
+
+.cart-inner-1 .table thead tr th {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #343a40;
+    border:1px solid #ddd;
+}
+.line_items td{
+    border:1px solid #ddd;
+}
+
